@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('/img/bg-img-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    font-family: 'Nunito', sans-serif;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo{
+    display: inline-block;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.contact-btn{
+   border: 1px solid #0073F6;
+   background-color: white;
+   border-radius: 25px;
+   padding: 10px 10px;
+   margin: 0 5px;
+}
+
+
+.banner{
+    background-image: url('../img/banner-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 30px 50px;
+
+}
+
+.banner > h1 {
+    font-size: 500%;
+    margin-bottom: 0;
+}
+
+.banner > p {
+    text-align: center;
+    width: 60%;
+    font-weight: lighter;
+}
+
+.banner > h3{
+    font-size: 150%;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.one-feature{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.selected{
+    background-color:#0073F6;
+    padding: 10px;
+    color: #eee;
+    box-shadow: 1px 1px 20px #0073F6;
+    border-radius: 10px;
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.works > h1{
+    font-size: 250%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.works > p {
+    width: 70%;
+    font-size: 14px;
+}
+
+.img-display{
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase{
+    height: 200px;
+    background-color: #eee;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.cta{
+    padding-top: 30px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cta > h3 {
+    font-size: 200%;
+}
+
+.cta > button{
+    border: none;
+   background-color: #0073F6;
+   border-radius: 25px;
+   padding: 10px 20px;
+   color: white;
+}
+
